@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-09-01T19:28:52Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "BluePill"
+        },
+        "Owner": "Toma Rohlinek <tomas.rohlinek@outlook.cz>",
+        "Size": {
+            "X": 23,
+            "Y": 53
+        }
+    }
+}
