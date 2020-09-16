@@ -17602,7 +17602,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connects>
 <connect gate="G$1" pin="ADJ/GND" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="2 4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -21943,8 +21943,8 @@ Source: www.kingbright.com</description>
 </spice>
 <attribute name="LCSC" value="C25741"/>
 </part>
-<part name="JP5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1"/>
-<part name="JP6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1"/>
+<part name="BOOT0" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1"/>
+<part name="BOOT1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1"/>
 <part name="U$1" library="tactile" deviceset="TACTILE-SWITCH" device="">
 <attribute name="LCSC" value="C318884"/>
 </part>
@@ -22344,10 +22344,10 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="212.598" y="80.01" size="1.778" layer="96" rot="R270"/>
 <attribute name="LCSC" x="215.9" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="JP5" gate="G$1" x="177.8" y="88.9" smashed="yes" rot="R90">
+<instance part="BOOT0" gate="G$1" x="177.8" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.419" y="91.44" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="JP6" gate="G$1" x="215.9" y="88.9" smashed="yes" rot="R90">
+<instance part="BOOT1" gate="G$1" x="215.9" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="215.519" y="91.44" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="U$1" gate="G$1" x="180.34" y="22.86" smashed="yes">
@@ -23198,12 +23198,12 @@ Source: www.kingbright.com</description>
 <label x="220.98" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="3"/>
+<pinref part="BOOT0" gate="G$1" pin="3"/>
 <wire x1="182.88" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="G$1" pin="3"/>
+<pinref part="BOOT1" gate="G$1" pin="3"/>
 <wire x1="220.98" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
@@ -23402,20 +23402,20 @@ Source: www.kingbright.com</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="BOOT0" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="81.28" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="BOOT1" gate="G$1" pin="2"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="83.82" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="BOOT0" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 </segment>
@@ -23439,7 +23439,7 @@ Source: www.kingbright.com</description>
 <label x="213.36" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="BOOT1" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
