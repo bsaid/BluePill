@@ -161,10 +161,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0.00111875" y1="0" x2="23.00111875" y2="0" width="0" layer="20" grouprefs="BOARD4"/>
-<wire x1="23.00111875" y1="0" x2="23.00111875" y2="53" width="0" layer="20" grouprefs="BOARD4"/>
-<wire x1="23.00111875" y1="53" x2="0.00111875" y2="53" width="0" layer="20" grouprefs="BOARD4"/>
-<wire x1="0.00111875" y1="53" x2="0.00111875" y2="0" width="0" layer="20" grouprefs="BOARD4"/>
 <text x="2.13486875" y="1.42875" size="0.8128" layer="25" rot="R90" grouprefs="BOARD4">3V3</text>
 <text x="2.13486875" y="3.81" size="0.8128" layer="25" rot="R90" grouprefs="BOARD4">GND</text>
 <text x="20.86736875" y="52.07" size="0.8128" layer="25" rot="SR270" grouprefs="BOARD4">GND</text>
@@ -217,10 +213,6 @@
 <text x="10.23111875" y="10.16" size="0.8128" layer="26" rot="MR180" grouprefs="BOARD4">C15 OUT</text>
 <text x="14.35861875" y="7.3025" size="0.8128" layer="26" rot="MR0" grouprefs="BOARD4">C14 OUT</text>
 <text x="14.67611875" y="4.7625" size="0.8128" layer="26" rot="MR0" grouprefs="BOARD4">C13 OUT</text>
-<wire x1="25.0023375" y1="0" x2="48.0023375" y2="0" width="0" layer="20" grouprefs="BOARD3"/>
-<wire x1="48.0023375" y1="0" x2="48.0023375" y2="53" width="0" layer="20" grouprefs="BOARD3"/>
-<wire x1="48.0023375" y1="53" x2="25.0023375" y2="53" width="0" layer="20" grouprefs="BOARD3"/>
-<wire x1="25.0023375" y1="53" x2="25.0023375" y2="0" width="0" layer="20" grouprefs="BOARD3"/>
 <text x="27.1360875" y="1.42875" size="0.8128" layer="25" rot="R90" grouprefs="BOARD3">3V3</text>
 <text x="27.1360875" y="3.81" size="0.8128" layer="25" rot="R90" grouprefs="BOARD3">GND</text>
 <text x="45.8685875" y="52.07" size="0.8128" layer="25" rot="SR270" grouprefs="BOARD3">GND</text>
@@ -273,10 +265,6 @@
 <text x="35.2323375" y="10.16" size="0.8128" layer="26" rot="MR180" grouprefs="BOARD3">C15 OUT</text>
 <text x="39.3598375" y="7.3025" size="0.8128" layer="26" rot="MR0" grouprefs="BOARD3">C14 OUT</text>
 <text x="39.6773375" y="4.7625" size="0.8128" layer="26" rot="MR0" grouprefs="BOARD3">C13 OUT</text>
-<wire x1="50.00101875" y1="0" x2="73.00101875" y2="0" width="0" layer="20" grouprefs="BOARD2"/>
-<wire x1="73.00101875" y1="0" x2="73.00101875" y2="53" width="0" layer="20" grouprefs="BOARD2"/>
-<wire x1="73.00101875" y1="53" x2="50.00101875" y2="53" width="0" layer="20" grouprefs="BOARD2"/>
-<wire x1="50.00101875" y1="53" x2="50.00101875" y2="0" width="0" layer="20" grouprefs="BOARD2"/>
 <text x="52.13476875" y="1.42875" size="0.8128" layer="25" rot="R90" grouprefs="BOARD2">3V3</text>
 <text x="52.13476875" y="3.81" size="0.8128" layer="25" rot="R90" grouprefs="BOARD2">GND</text>
 <text x="70.86726875" y="52.07" size="0.8128" layer="25" rot="SR270" grouprefs="BOARD2">GND</text>
@@ -329,10 +317,6 @@
 <text x="60.23101875" y="10.16" size="0.8128" layer="26" rot="MR180" grouprefs="BOARD2">C15 OUT</text>
 <text x="64.35851875" y="7.3025" size="0.8128" layer="26" rot="MR0" grouprefs="BOARD2">C14 OUT</text>
 <text x="64.67601875" y="4.7625" size="0.8128" layer="26" rot="MR0" grouprefs="BOARD2">C13 OUT</text>
-<wire x1="63" y1="55.0022375" x2="63" y2="78.0022375" width="0" layer="20" grouprefs="BOARD1"/>
-<wire x1="63" y1="78.0022375" x2="10" y2="78.0022375" width="0" layer="20" grouprefs="BOARD1"/>
-<wire x1="10" y1="78.0022375" x2="10" y2="55.0022375" width="0" layer="20" grouprefs="BOARD1"/>
-<wire x1="10" y1="55.0022375" x2="63" y2="55.0022375" width="0" layer="20" grouprefs="BOARD1"/>
 <text x="61.57125" y="57.1359875" size="0.8128" layer="25" rot="R180" grouprefs="BOARD1">3V3</text>
 <text x="59.19" y="57.1359875" size="0.8128" layer="25" rot="R180" grouprefs="BOARD1">GND</text>
 <text x="10.93" y="75.8684875" size="0.8128" layer="25" rot="SR0" grouprefs="BOARD1">GND</text>
@@ -385,16 +369,9 @@
 <text x="52.84" y="65.2322375" size="0.8128" layer="26" rot="MR90" grouprefs="BOARD1">C15 OUT</text>
 <text x="55.6975" y="69.3597375" size="0.8128" layer="26" rot="MR270" grouprefs="BOARD1">C14 OUT</text>
 <text x="58.2375" y="69.6772375" size="0.8128" layer="26" rot="MR270" grouprefs="BOARD1">C13 OUT</text>
-<wire x1="-2" y1="-2" x2="-2" y2="43" width="0" layer="20"/>
-<wire x1="-2" y1="43" x2="-2" y2="50" width="0" layer="20"/>
 <wire x1="-2" y1="50" x2="-2" y2="55" width="0" layer="20"/>
 <wire x1="-2" y1="55" x2="8" y2="55" width="0" layer="20"/>
-<wire x1="8" y1="55" x2="8" y2="80.0022375" width="0" layer="20"/>
-<wire x1="8" y1="80.0022375" x2="65" y2="80.0022375" width="0" layer="20"/>
-<wire x1="65" y1="80.0022375" x2="65" y2="55" width="0" layer="20"/>
 <wire x1="65" y1="55" x2="75.00101875" y2="55" width="0" layer="20"/>
-<wire x1="75.00101875" y1="55" x2="75.00101875" y2="-2" width="0" layer="20"/>
-<wire x1="75.00101875" y1="-2" x2="-2" y2="-2" width="0" layer="20"/>
 <wire x1="-5" y1="-5" x2="-5" y2="84" width="0" layer="20"/>
 <wire x1="-5" y1="84" x2="79" y2="84" width="0" layer="20"/>
 <wire x1="79" y1="84" x2="79" y2="-5" width="0" layer="20"/>
@@ -438,13 +415,13 @@
 <hole x="73.4" y="46.5" drill="0.5"/>
 <hole x="73.4" y="45.5" drill="0.5"/>
 <hole x="73.4" y="44.5" drill="0.5"/>
-<wire x1="73" y1="6" x2="75" y2="6" width="0" layer="20" curve="-180"/>
-<wire x1="75" y1="13" x2="73" y2="13" width="0" layer="20" curve="-180"/>
-<hole x="73.4" y="11.5" drill="0.5"/>
-<hole x="73.4" y="10.5" drill="0.5"/>
-<hole x="73.4" y="9.5" drill="0.5"/>
+<wire x1="73" y1="3" x2="75" y2="3" width="0" layer="20" curve="-180"/>
+<wire x1="75" y1="10" x2="73" y2="10" width="0" layer="20" curve="-180"/>
 <hole x="73.4" y="8.5" drill="0.5"/>
 <hole x="73.4" y="7.5" drill="0.5"/>
+<hole x="73.4" y="6.5" drill="0.5"/>
+<hole x="73.4" y="5.5" drill="0.5"/>
+<hole x="73.4" y="4.5" drill="0.5"/>
 <wire x1="58" y1="0" x2="58" y2="-2" width="0" layer="20" curve="-180"/>
 <wire x1="65" y1="-2" x2="65" y2="0" width="0" layer="20" curve="-180"/>
 <hole x="63.5" y="-0.4" drill="0.5"/>
@@ -574,6 +551,63 @@
 <hole x="8.4" y="66.5" drill="0.5"/>
 <hole x="8.4" y="67.5" drill="0.5"/>
 <hole x="8.4" y="68.5" drill="0.5"/>
+<wire x1="8" y1="70" x2="8" y2="80" width="0" layer="20"/>
+<wire x1="8" y1="63" x2="8" y2="55" width="0" layer="20"/>
+<wire x1="10" y1="63" x2="10" y2="55" width="0" layer="20"/>
+<wire x1="10" y1="70" x2="10" y2="78" width="0" layer="20"/>
+<wire x1="0" y1="53" x2="0" y2="50" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="-2" y1="10" x2="-2" y2="43" width="0" layer="20"/>
+<wire x1="0" y1="43" x2="0" y2="10" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="-2" y1="-2" x2="-2" y2="3" width="0" layer="20"/>
+<wire x1="0" y1="3" x2="0" y2="0" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="0" y1="0" x2="8" y2="0" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="8" y1="-2" x2="-2" y2="-2" width="0" layer="20"/>
+<wire x1="15" y1="0" x2="23" y2="0" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="23" y1="0" x2="23" y2="3" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="25" y1="3" x2="25" y2="0" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="25" y1="0" x2="33" y2="0" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="33" y1="-2" x2="15" y2="-2" width="0" layer="20"/>
+<wire x1="40" y1="0" x2="48" y2="0" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="50" y1="0" x2="58" y2="0" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="58" y1="-2" x2="40" y2="-2" width="0" layer="20"/>
+<wire x1="65" y1="0" x2="73" y2="0" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="75.00101875" y1="-2" x2="65" y2="-2" width="0" layer="20"/>
+<wire x1="73" y1="0" x2="73" y2="3" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="75" y1="3" x2="75.00101875" y2="-2" width="0" layer="20"/>
+<wire x1="73" y1="10" x2="73" y2="43" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="75" y1="43" x2="75" y2="10" width="0" layer="20"/>
+<wire x1="73" y1="50" x2="73" y2="53" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="75.00101875" y1="55" x2="75" y2="50" width="0" layer="20"/>
+<wire x1="63" y1="55" x2="63" y2="63" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="65" y1="63" x2="65" y2="55" width="0" layer="20"/>
+<wire x1="63" y1="70" x2="63" y2="78" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="65" y1="80.0022375" x2="65" y2="70" width="0" layer="20"/>
+<wire x1="63" y1="78" x2="58" y2="78" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="58" y1="80" x2="65" y2="80.0022375" width="0" layer="20"/>
+<wire x1="51" y1="78" x2="20" y2="78" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="20" y1="80" x2="51" y2="80" width="0" layer="20"/>
+<wire x1="13" y1="78" x2="10" y2="78" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="8" y1="80" x2="13" y2="80" width="0" layer="20"/>
+<wire x1="13" y1="53" x2="0" y2="53" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="10" y1="55" x2="13" y2="55" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="23" y1="53" x2="20" y2="53" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="33" y1="53" x2="25" y2="53" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="20" y1="55" x2="33" y2="55" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="48" y1="53" x2="40" y2="53" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="53" y1="53" x2="50" y2="53" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="40" y1="55" x2="53" y2="55" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="73" y1="53" x2="60" y2="53" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="60" y1="55" x2="63" y2="55" width="0" layer="20" grouprefs="BOARD1"/>
+<wire x1="23" y1="50" x2="23" y2="53" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="25" y1="53" x2="25" y2="50" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="23" y1="10" x2="23" y2="43" width="0" layer="20" grouprefs="BOARD4"/>
+<wire x1="25" y1="43" x2="25" y2="10" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="48" y1="50" x2="48" y2="53" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="50" y1="53" x2="50" y2="50" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="48" y1="10" x2="48" y2="43" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="50" y1="43" x2="50" y2="10" width="0" layer="20" grouprefs="BOARD2"/>
+<wire x1="48" y1="0" x2="48" y2="3" width="0" layer="20" grouprefs="BOARD3"/>
+<wire x1="50" y1="3" x2="50" y2="0" width="0" layer="20" grouprefs="BOARD2"/>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
